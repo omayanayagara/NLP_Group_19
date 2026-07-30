@@ -17,3 +17,15 @@ models/
 # System files
 .DS_Store
 Thumbs.db
+
+data/imdb_cleaned.csv
+venv/
+
+venv/
+
+data/imdb_cleaned.csv
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
