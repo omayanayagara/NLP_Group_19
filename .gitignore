@@ -1,4 +1,4 @@
-# Virtual Environment
+# Virtual environment
 venv/
 
 # Python cache
@@ -11,21 +11,18 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Model files
-models/
-
 # System files
 .DS_Store
 Thumbs.db
 
+# Dataset / generated data
 data/imdb_cleaned.csv
-venv/
+data/*.csv
 
-venv/
+# Temporary files
+*.tmp
+*.log
 
-data/imdb_cleaned.csv
-
-__pycache__/
-*.pyc
-
-.ipynb_checkpoints/
+# Large generated training artifacts
+models/lstm_model.h5
+models/train_test_data.pkl
