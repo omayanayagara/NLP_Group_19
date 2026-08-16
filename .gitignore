@@ -26,3 +26,6 @@ data/*.csv
 # Large generated training artifacts
 models/lstm_model.h5
 models/train_test_data.pkl
+
+# Trained model artifacts
+models/
